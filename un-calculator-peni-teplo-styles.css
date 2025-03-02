@@ -34,6 +34,17 @@ h2 {
     padding: 2px 4px;
 }
 
+@media (max-width: 600px) {
+    table {
+      display: block;
+      max-width: -moz-fit-content;
+      max-width: fit-content;
+      margin: 0 auto;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+}
+
 @media print {
     .res-table, .printTable {
      page-break-before: always;
